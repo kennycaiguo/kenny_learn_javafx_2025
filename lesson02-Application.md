@@ -26,7 +26,7 @@
 #### 我们发现,此时应用程序不会自动退出,需要我们手动结束<br>
 <img width="1400" height="717" alt="image" src="https://github.com/user-attachments/assets/06a68b82-60c4-4e5b-9daa-7693e2c5f052" /> <br>
 #### 点击结束按钮,应用程序退出,此时stop方法没有被调用 <br>
-<img width="1330" height="409" alt="image" src="https://github.com/user-attachments/assets/4bc24e00-b37b-41b0-99b0-a77ed754afb7" />
+<img width="1330" height="409" alt="image" src="https://github.com/user-attachments/assets/4bc24e00-b37b-41b0-99b0-a77ed754afb7" /> <br>
 #### 注意:线程方面，执行main()方法时是主线程，当调用init()方法时是JavaFX-Launcher线程，当调用start()方法时是JavaFX Application Thread线程，当调用stop()方法时依然是JavaFX Application Thread线程<br>
  <br>
  <br>
