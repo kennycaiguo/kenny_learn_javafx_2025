@@ -8,7 +8,10 @@
 <img width="1174" height="706" alt="image" src="https://github.com/user-attachments/assets/0c16e86b-a660-4593-96ef-dc67006bd8af" /> <br>
 #### 运行程序,效果如下 <br>
 <img width="1648" height="873" alt="image" src="https://github.com/user-attachments/assets/9ec1b294-4622-449b-9a7c-1caa6fead8f9" /> <br>
-#### init方法的确被调用了 <br>
+#### init方法的确被调用了,而且init方法会在start方法之前调用,我们可以在start方法里面也添加一个输出语句 <br>
+<img width="1551" height="619" alt="image" src="https://github.com/user-attachments/assets/64f4e237-fceb-4453-b4cc-bcee4c8f2317" /> <br>
+#### 运行程序,效果如下 <br>
+<img width="1778" height="863" alt="image" src="https://github.com/user-attachments/assets/7093fe63-abff-4694-a7f6-3d1087085c69" /> <br>
 ### 5.我们也添加一个stop方法,看看它会不会被调用 <br>
 <img width="1084" height="559" alt="image" src="https://github.com/user-attachments/assets/e6b85f94-bb1a-4a9b-8c6a-4c6188d90ca6" /><br>
 #### 运行程序,init方法调用了,stop方法还没有调用<br>
