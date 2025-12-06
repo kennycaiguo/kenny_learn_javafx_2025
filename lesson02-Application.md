@@ -35,6 +35,6 @@
 <img width="1373" height="757" alt="image" src="https://github.com/user-attachments/assets/8636bc8e-5451-46b3-9e30-198f4156a3e8" /> <br>
 ### 8.运行程序,点击按钮,就会打开Instagram网站
 <img width="1545" height="973" alt="image" src="https://github.com/user-attachments/assets/03a9986e-6647-46d0-b009-30158a722b70" /> <br>
-
- <br>
+## 9.小结在javafx中,给按钮添加事件处理在不使用fxml的话有2种方法,第一种就是使用lambda函数,第二种是自定义事件处理函数,比较麻烦,但是如果这个处理函数非常复杂的时候可读性比lambda高
+<img width="1359" height="763" alt="image" src="https://github.com/user-attachments/assets/3f3b9dfb-550d-4276-993a-f017cc69a885" /> <br>
  <br>
