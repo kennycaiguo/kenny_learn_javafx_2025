@@ -32,7 +32,7 @@
 #### 点击取消,不会关闭,点击ok关闭 <br>
 <img width="992" height="750" alt="image" src="https://github.com/user-attachments/assets/edefd1c9-e728-41e4-876f-2ef481af515d" /> <br>
 <img width="1258" height="834" alt="image" src="https://github.com/user-attachments/assets/8babd98d-4c22-42ad-817b-6c04f325abac" /> <br>
-
+#### 注意:jfx中弹窗是使用Alert类来实现,关闭窗口还可以stage.close()来实现 <br>
 
 
 
