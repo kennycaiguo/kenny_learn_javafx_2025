@@ -113,6 +113,8 @@ public class HelloApplication extends Application {
 <img width="493" height="415" alt="image" src="https://github.com/user-attachments/assets/f0457545-678b-4dac-ac8d-b028a3cae6fe" /> <br>
 ### 设置x方向和y方向的缩放<br>
 <img width="1092" height="751" alt="image" src="https://github.com/user-attachments/assets/58292192-c664-410d-a290-4f6a7d493887" /> <br>
+### 缩放效果如下<br>
+<img width="499" height="412" alt="image" src="https://github.com/user-attachments/assets/9b95fa4c-c5d7-4064-bcc3-54954bd98d99" /> <br>
 ### 还有parent,scene和id我们以后用到再学习<br>
 
 
