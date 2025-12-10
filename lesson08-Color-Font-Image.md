@@ -53,7 +53,56 @@ public class HelloApplication extends Application {
 ### 2.接下来我们来学习一下Font类<br>
 ### Font类有2个构造方法<br>
 <img width="1291" height="325" alt="image" src="https://github.com/user-attachments/assets/a7834abd-b70a-408a-a672-11fbf13f79c8" /> <br>
-
+### 然后它有很多方法<br>
+```
+Method Summary
+All MethodsStatic MethodsInstance MethodsConcrete Methods
+Modifier and Type	Method	Description
+boolean	equals​(Object obj)	
+Indicates whether some other object is "equal to" this one.
+static Font	font​(double size)	
+Searches for an appropriate font based on the default font family name and given font size.
+static Font	font​(String family)	
+Searches for an appropriate font based on the given font family name and default font size.
+static Font	font​(String family, double size)	
+Searches for an appropriate font based on the font family name and size.
+static Font	font​(String family, FontPosture posture, double size)	
+Searches for an appropriate font based on the font family name and posture style.
+static Font	font​(String family, FontWeight weight, double size)	
+Searches for an appropriate font based on the font family name and weight style.
+static Font	font​(String family, FontWeight weight, FontPosture posture, double size)	
+Searches for an appropriate font based on the font family name and weight and posture style.
+static Font	getDefault()	
+Gets the default font which will be from the family "System", and typically the style "Regular", and be of a size consistent with the user's desktop environment, to the extent that can be determined.
+static List<String>	getFamilies()	
+Gets all the font families installed on the user's system, including any application fonts or SDK fonts.
+String	getFamily()	
+Returns the family of this font.
+static List<String>	getFontNames()	
+Gets the names of all fonts that are installed on the users system, including any application fonts and SDK fonts.
+static List<String>	getFontNames​(String family)	
+Gets the names of all fonts in the specified font family that are installed on the users system, including any application fonts and SDK fonts.
+String	getName()	
+The full font name.
+double	getSize()	
+The point size for this font.
+String	getStyle()	
+The font specified string describing the style within the font family.
+int	hashCode()	
+Returns a hash code for this Font object.
+static Font	loadFont​(InputStream in, double size)	
+Loads a font resource from the specified input stream.
+static Font	loadFont​(String urlStr, double size)	
+Loads a font resource from the specified URL.
+static Font[]	loadFonts​(InputStream in, double size)	
+Loads font resources from the specified input stream.
+static Font[]	loadFonts​(String urlStr, double size)	
+Loads font resources from the specified URL.
+String	toString()	
+Converts this Font object to a String representation.
+Methods inherited from class java.lang.Object
+clone, finalize, getClass, notify, notifyAll, wait, wait, wait
+```
 
 
 
