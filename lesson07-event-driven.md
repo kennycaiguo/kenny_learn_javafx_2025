@@ -167,6 +167,7 @@ myText.setOnMousePressed(e->{
 ### JavaFX 常见事件类型<br>
 <img width="1183" height="858" alt="image" src="https://github.com/user-attachments/assets/a8b1d58f-e9cb-4ad4-8365-6f9b3ceb9b37" />
 <img width="1071" height="384" alt="image" src="https://github.com/user-attachments/assets/5ce524c5-849b-4a20-b9d0-7c382f62b1ef" /> 
+<br>
 ### ActionEvents（动作事件）
 在JavaFX中，ActionEvent 是一个表示用户触发动作的事件，比如点击按钮、选择菜单项或按下键盘上的特定键。<br>
 #### 案例演示:按钮点击事件处理<br>
@@ -461,7 +462,7 @@ public class HelloApplication extends Application {
 #### 效果<br>
 <img width="619" height="657" alt="image" src="https://github.com/user-attachments/assets/66c73d72-a7b5-4d00-acdc-93d8cf945887" />
 <img width="628" height="636" alt="image" src="https://github.com/user-attachments/assets/ef1649d1-e46b-4d77-b6c6-5f720df8b866" />
-<img width="636" height="661" alt="image" src="https://github.com/user-attachments/assets/acfbb8cd-1f7f-4242-8bfa-8ef44d452866" />
+<img width="636" height="661" alt="image" src="https://github.com/user-attachments/assets/acfbb8cd-1f7f-4242-8bfa-8ef44d452866" /> <br>
 ### 然后我们还可以设置键盘事件,这里可以个stage设置这个键盘弹起事件,代码如下<br>
 ```
 package com.example.jfx_event_demo;
