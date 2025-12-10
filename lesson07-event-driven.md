@@ -465,6 +465,8 @@ public class HelloApplication extends Application {
 <img width="619" height="657" alt="image" src="https://github.com/user-attachments/assets/66c73d72-a7b5-4d00-acdc-93d8cf945887" />
 <img width="628" height="636" alt="image" src="https://github.com/user-attachments/assets/ef1649d1-e46b-4d77-b6c6-5f720df8b866" />
 <img width="636" height="661" alt="image" src="https://github.com/user-attachments/assets/acfbb8cd-1f7f-4242-8bfa-8ef44d452866" /> <br>
+
+
 ### 然后我们还可以设置键盘事件,这里可以个stage设置这个键盘弹起事件,代码如下<br>
 ```
 package com.example.jfx_event_demo;
