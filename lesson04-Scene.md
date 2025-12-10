@@ -47,6 +47,7 @@ public class HelloApplication extends Application {
     }
 }
 ```
+
 ## 运行程序效果如下 <br>
 <img width="377" height="292" alt="image" src="https://github.com/user-attachments/assets/83793c4d-e059-4514-a60d-87d09978f9b7" /> <br>
 ### 可以看到,控件必须先添加到场景中,然后再调用stage.setSecene(scene)方法设置场景到窗口中 <br>
