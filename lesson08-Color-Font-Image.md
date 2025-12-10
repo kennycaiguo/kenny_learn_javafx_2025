@@ -50,5 +50,10 @@ public class HelloApplication extends Application {
 #### 运行程序,效果如下<br>
 <img width="635" height="667" alt="image" src="https://github.com/user-attachments/assets/0fa53e04-a235-4781-9906-8e1421bf6f2d" /> <br>
 
+### 2.接下来我们来学习一下Font类<br>
+### Font类有2个构造方法<br>
+<img width="1291" height="325" alt="image" src="https://github.com/user-attachments/assets/a7834abd-b70a-408a-a672-11fbf13f79c8" /> <br>
+
+
 
 
