@@ -2,7 +2,7 @@
 ## 我们通过一个实例来学习:jfx_color_font_image<br>
 <img width="535" height="519" alt="image" src="https://github.com/user-attachments/assets/451e099a-0761-47d3-b6f4-8403e533e35f" />
 
-### 1,先来看Color类,我们发现它有很多构造方法<br>
+### 1,先来看Color类,我们发现它有很多构造方法,参考网址:https://openjfx.io/javadoc/13/javafx.graphics/javafx/scene/paint/Color.html<br>
 <img width="1117" height="655" alt="image" src="https://github.com/user-attachments/assets/05a095dd-ceed-4a02-9839-4b6f7e589b06" /> <br>
 #### 实例代码如下<br>
 ```
@@ -50,7 +50,7 @@ public class HelloApplication extends Application {
 #### 运行程序,效果如下<br>
 <img width="635" height="667" alt="image" src="https://github.com/user-attachments/assets/0fa53e04-a235-4781-9906-8e1421bf6f2d" /> <br>
 
-### 2.接下来我们来学习一下Font类<br>
+### 2.接下来我们来学习一下Font类,参考网址:https://openjfx.io/javadoc/13/javafx.graphics/javafx/scene/text/Font.html<br>
 ### Font类有2个构造方法<br>
 <img width="1291" height="325" alt="image" src="https://github.com/user-attachments/assets/a7834abd-b70a-408a-a672-11fbf13f79c8" /> <br>
 ### 然后它有很多方法<br>
@@ -103,6 +103,58 @@ Converts this Font object to a String representation.
 Methods inherited from class java.lang.Object
 clone, finalize, getClass, notify, notifyAll, wait, wait, wait
 ```
+
+### 我们也通过一个小例子来学习,还是这个项目,我们新建另外一个文件:HelloApplicationFont.java<br>
+#### 需要注意,如果你想改变字体,使用Font.font("字体文件名称",字体大小)这个方法是获取不到系统字体的,最好把一个需要使用的字体放到resources/fonts/文件夹里面,然后
+#### 使用Font.loadFont(getClass().getResource("/fonts/字体文件.ttf").toString(),字体大小)来获取.代码如下:<br>
+```
+package com.example.jfx_color_font_image;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
+import javafx.stage.Stage;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class HelloApplicationFont extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        Label lbl = new Label("你好,我好,大家好");
+        lbl.setLayoutX(180);
+        lbl.setLayoutY(250);
+        //这种不太灵活
+//      Font font = Font.loadFont(new FileInputStream("src/main/resources/STXINGKA.TTF"),20);
+        //这个比较灵活
+        Font font = Font.loadFont(
+                this.getClass().getResource("/fonts/STXINGKA.TTF").toString(),30);
+        lbl.setFont(font);
+        AnchorPane root = new AnchorPane();
+        root.getChildren().add(lbl);
+        Scene s = new Scene(root,500,500);
+        stage.setTitle("JavaFx Color_font_image");
+        stage.setScene(s);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+}
+```
+#### 运行程序效果如下<br>
+<img width="1261" height="755" alt="image" src="https://github.com/user-attachments/assets/b870b6f8-88f2-43f9-8e59-f356864fc2cf" /> <br>
+
+
+
+
+
 
 
 
