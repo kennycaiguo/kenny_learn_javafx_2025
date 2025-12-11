@@ -151,6 +151,44 @@ public class HelloApplicationFont extends Application {
 #### 运行程序效果如下<br>
 <img width="1261" height="755" alt="image" src="https://github.com/user-attachments/assets/b870b6f8-88f2-43f9-8e59-f356864fc2cf" /> <br>
 
+### 3.然后我们来学习一下Image类,参考: https://openjfx.io/javadoc/13/javafx.graphics/javafx/scene/image/Image.html<br>
+### 我们创建一个HelloApplicationImage.java来学习,注意不能够直接把Image实例对象添加到面板中,需要先用这个对象来构造一个ImageView对象才能够添加到面板中<br>
+<img width="556" height="648" alt="image" src="https://github.com/user-attachments/assets/0940745c-f74c-4533-a758-cc8d7cc71ced" /> <br>
+
+```
+package com.example.jfx_color_font_image;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+public class HelloApplicationImage extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        String path = getClass().getResource("/images/scene7.png").toString();
+        //面板不能够直接添加图片,需要使用先使用图片来构造ImageView对象然后才能够添加到面板
+        ImageView iv = new ImageView(new Image(path));
+        AnchorPane root = new AnchorPane();
+        root.getChildren().add(iv);
+        Scene s = new Scene(root,500,500);
+        stage.setTitle("JavaFx Color_font_image");
+        stage.setScene(s);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+}
+```
+#### 运行程序,效果如下<br>
+<img width="623" height="658" alt="image" src="https://github.com/user-attachments/assets/bc42ca3d-d772-43e2-acc5-4d3febd5dfe3" /> <br>
+
 
 
 
