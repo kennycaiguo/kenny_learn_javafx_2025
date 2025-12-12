@@ -76,6 +76,6 @@ public class HelloApplication extends Application {
 ```
 #### 运行程序,效果如下: <br>
 <img width="1356" height="844" alt="image" src="https://github.com/user-attachments/assets/dfc85346-d86d-49f6-a995-602e587cde1b" /> <br>
-## 注意:我们可以利用idea来帮我们安装Scene Builder插件,这样子就可以想.net开发一样使用拖拽的方式来设计界面了<br>
+## 注意:我们可以利用idea来帮我们安装Scene Builder插件,这样子就可以像.net开发一样使用拖拽的方式来设计界面了<br>
 <img width="1468" height="790" alt="image" src="https://github.com/user-attachments/assets/b0a9e484-713f-487c-86bc-14c90babe426" /> <br>
 
