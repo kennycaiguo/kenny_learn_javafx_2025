@@ -11,7 +11,11 @@
 <img width="1380" height="686" alt="image" src="https://github.com/user-attachments/assets/54888ad3-90dc-4bde-b51a-54e24d7c62b2" /><br>
 ### 运行程序,效果如下:<br>
 <img width="1420" height="838" alt="image" src="https://github.com/user-attachments/assets/2594e010-7e2e-42e1-a605-64b1af5cc693" /> <br>
-## 具体这个initialize方法怎么用,我们可以把按钮和标签删除,然后添加一个TableView控件,我们需要在应用程序一启动,就给TabelView添加数据,此时就只能够使用initialize方法里面的代码来完成功能了,在这之前,我们需要新建一个Person类<br>
+## 具体这个initialize方法怎么用,我们可以把按钮和标签删除,然后添加一个TableView控件,
+<img width="1316" height="691" alt="image" src="https://github.com/user-attachments/assets/04a3d163-a4fe-4379-9784-2466b2c1e2c7" /> <br>
+### 注意需要给TableView和他的Column分别设置id<br>
+<img width="1042" height="313" alt="image" src="https://github.com/user-attachments/assets/072fb519-d570-49e2-b957-bc4e8a28a5a0" /><br>
+## 我们需要在应用程序一启动,就给TabelView添加数据,此时就只能够使用initialize方法里面的代码来完成功能了,在这之前,我们需要新建一个Person类<br>
 <img width="1389" height="640" alt="image" src="https://github.com/user-attachments/assets/24263e31-ad86-4a4e-b472-7fab7cabc34c" /><br>
 ## 然后我们在initialize方法里面给TableView弹出数据,代码有点复杂<br>
 ```
