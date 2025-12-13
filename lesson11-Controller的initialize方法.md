@@ -18,7 +18,7 @@
 ## 我们需要在应用程序一启动,就给TabelView添加数据,此时就只能够使用initialize方法里面的代码来完成功能了,在这之前,我们需要新建一个Person类<br>
 <img width="1389" height="640" alt="image" src="https://github.com/user-attachments/assets/24263e31-ad86-4a4e-b472-7fab7cabc34c" /><br>
 ### 注意:需要给Person类创建带参数的构造函数<br>
-## 然后我们在initialize方法里面给TableView弹出数据,代码有点复杂<br>
+## 然后我们在initialize方法里面给TableView弹出数据,此时需要确定TableView和他的每一列的泛型数据类型,代码有点复杂<br>
 ```
 package com.kenny.jfx_controller_demo;
 
