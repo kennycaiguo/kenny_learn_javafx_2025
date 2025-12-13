@@ -48,7 +48,13 @@ public class HelloController {
 <img width="1271" height="678" alt="image" src="https://github.com/user-attachments/assets/f64a462c-2593-4f54-8a8b-42e0c54fde86" /><br>
 ### 然后修改运行Application的代码<br>
 <img width="1200" height="686" alt="image" src="https://github.com/user-attachments/assets/5e658206-1acd-4b76-a808-ba0a1fbec849" /><br>
-#### 效果是一样的
+#### 效果是一样的<br>
+<img width="881" height="651" alt="image" src="https://github.com/user-attachments/assets/5863a18c-8dda-46e3-8515-443854f7e94d" /><br>
+<img width="543" height="733" alt="image" src="https://github.com/user-attachments/assets/b9810bc9-240f-43b3-ad78-f0347b009fdb" /><br>
+<img width="529" height="411" alt="image" src="https://github.com/user-attachments/assets/c16d3473-4421-450a-a907-62052c91c9d8" /><br>
+
+
+
 
 
 
