@@ -160,6 +160,6 @@ public class HelloApplication1 extends Application {
 <img width="636" height="669" alt="image" src="https://github.com/user-attachments/assets/7c90a1fa-da9a-4204-af59-50ec6e39593e" /><br>
 ### 点击按钮,就可以显示进度以及图片<br>
 <img width="620" height="659" alt="image" src="https://github.com/user-attachments/assets/51d71f9e-5f14-4ab6-abe9-96b014aa3d61" /> <br>
-
+### 注意:对应一些很耗时的工作,我们就可以把它放到一个线程来完成,以免占用太多主线程的资源.<br>
 
 
